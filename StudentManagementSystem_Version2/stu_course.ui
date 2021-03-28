@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>stu_course</class>
+ <widget class="QDialog" name="stu_course">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>649</width>
+    <height>488</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>学生选课和成绩管理系统</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>20</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>学生选课系统</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tb_course">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>110</y>
+     <width>571</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tb_select">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>310</y>
+     <width>571</width>
+     <height>161</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>280</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>已选课程：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>280</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>当前已选课程学分和：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_sum">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>280</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>71</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>显示全部</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cbb_queryway">
+   <property name="geometry">
+    <rect>
+     <x>43</x>
+     <y>72</y>
+     <width>110</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <item>
+    <property name="text">
+     <string>按名称查找</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按编号查找</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按学分查找</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按课程性质查找</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按开课学院查找</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="btn_stu_doquery">
+   <property name="geometry">
+    <rect>
+     <x>298</x>
+     <y>71</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开始查询</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_cname">
+   <property name="geometry">
+    <rect>
+     <x>159</x>
+     <y>72</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
